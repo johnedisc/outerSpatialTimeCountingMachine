@@ -9,7 +9,7 @@ describe('planetAges class', () => {
   });
 
   test('should return properties when accessed', () => {
-    expect(Object.keys(planetAges)).toEqual(['age','mercury','venus','mars','jupiter']);
+    expect(Object.keys(planetAges)).toEqual(['age','earth','mercury','venus','mars','jupiter']);
   });
   
   test('should reflect age argument passed into function', () => {
@@ -19,7 +19,7 @@ describe('planetAges class', () => {
   describe('calcAges() method', () => {
 
     test('should calculate and return converted age for all properties of PlanetAges', () => {
-      expect(planetAges.calcAges()).toEqual([54,233.33,90.32,29.78,4.72]);
+      expect(planetAges.calcAges()).toEqual([56,233.33,90.32,29.79,4.72]);
     });
 
   });

@@ -10,7 +10,7 @@ export class PlanetAges {
 
   calcAges() {
     const planetAgeProps = Object.keys(this);
-    return planetAgeProps.filter(el => el !== 'age').map(el => this.age / this[el]);
+    return planetAgeProps.filter(el => el !== 'age').map(el => parseFloat((this.age / this[el]).toFixed(2)));
   }
 
 } 
