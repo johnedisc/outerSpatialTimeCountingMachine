@@ -19,7 +19,7 @@ describe('planetAges class', () => {
   describe('calcAges() method', () => {
 
     test('should calculate and return converted age for all properties of PlanetAges', () => {
-      expect(planetAges.calcAges(this.age)).toEqual([54,233.33,90.32,29.78,4.72]);
+      expect(planetAges.calcAges()).toEqual([54,233.33,90.32,29.78,4.72]);
     });
 
   });
