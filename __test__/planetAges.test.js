@@ -4,7 +4,7 @@ describe('planetAges class', () => {
 
   test('should return propery values when accessed', () => {
     const planetAges = new PlanetAges();
-    expect(planetAges.mercury).toEqual(.24);
+    expect(planetAges.mercury.keys).toEqual(['mercury','venus','mars','jupiter']);
   });
 });
 
