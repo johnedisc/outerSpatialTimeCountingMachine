@@ -20,8 +20,7 @@ export class PlanetAges {
 
   calcAges() {
     Object.keys(this).filter(el => el !== 'age').map(el =>  {
-      console.log(el);
-      this[el].converted = (this.age / this[el]);
+      this[el].converted = parseFloat((this.age / this[el].ratio).toFixed(2));
     });
   }
 
