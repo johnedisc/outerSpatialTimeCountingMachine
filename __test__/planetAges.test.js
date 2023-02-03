@@ -26,4 +26,11 @@ describe('planetAges class', () => {
     });
 
   });
+  describe('yearSinceBirthday() method', () => {
+
+    test('should return age - birthday * ratio of planet years', () => {
+      expect(planetAges.yearSinceBirthday(43)).toEqual([13,54.16,8.06,6.91,1.09]);
+    });
+
+  });
 });

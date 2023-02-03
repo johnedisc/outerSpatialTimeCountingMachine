@@ -19,9 +19,7 @@ export class PlanetAges {
   }
 
   calcAges() {
-    Object.keys(this).filter(el => el !== 'age').map(el =>  {
-      this[el].converted = parseFloat((this.age / this[el].ratio).toFixed(2));
-    });
+    Object.keys(this).filter(el => el !== 'age').map(el => this[el].converted = parseFloat((this.age / this[el].ratio).toFixed(2)));
   }
 
 } 
