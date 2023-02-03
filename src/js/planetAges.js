@@ -19,9 +19,10 @@ export class PlanetAges {
   }
 
   calcAges() {
-    const planetAgeProps = Object.keys(this);
-    console.log(planetAgeProps);
-    return planetAgeProps.filter(el => el !== 'age').map(el =>  this[el].converted = parseFloat((this.age / this[el]).toFixed(2))); 
+    Object.keys(this).filter(el => el !== 'age').map(el =>  {
+      console.log(el);
+      this[el].converted = (this.age / this[el]);
+    });
   }
 
 } 
