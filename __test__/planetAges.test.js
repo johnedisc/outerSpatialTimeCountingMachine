@@ -10,7 +10,6 @@ describe('planetAges class', () => {
   });
 
   test('should return propery values when accessed', () => {
-    console.log(Object.keys(planetAges));
     expect(Object.keys(planetAges)).toEqual(['mercury','venus','mars','jupiter']);
   });
 
@@ -23,11 +22,15 @@ describe('planetAges class', () => {
     });
 
     test('should return properties of planet ages via inheritance', () => {
-      console.log(Object.keys(person));
       expect(Object.keys(person)).toEqual(['mercury','venus','mars','jupiter']);
     });
-    
+
+    test('should reflect age argument passed into function', () => {
+      person = new Person(36);
+      expect(person.age).toEqual(36);
+    });
+
   });
-  
+
 });
 
