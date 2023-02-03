@@ -1,10 +1,15 @@
-import PlanetAges from './../src/planetAges.js';
+import { PlanetAges } from './../src/js/planetAges.js';
 
 describe('planetAges class', () => {
 
+  let planetAges;
+
+  beforeEach(() => {
+    planetAges = new PlanetAges;
+  });
+
   test('should return propery values when accessed', () => {
-    const planetAges = new PlanetAges();
-    expect(planetAges.mercury.keys).toEqual(['mercury','venus','mars','jupiter']);
+    expect(Object.keys(planetAges)).toEqual(['mercury','venus','mars','jupiter']);
   });
 });
 
