@@ -1,4 +1,5 @@
 import { PlanetAges } from './../src/js/planetAges.js';
+import { Person } from './../src/js/planetAges.js';
 
 describe('planetAges class', () => {
 
