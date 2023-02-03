@@ -1,29 +1,36 @@
-# (Application Name)
+# [outer spatial time counting machine](https://github.com/johnedisc/outerSpatialTimeCountingMachine.git)
 
-#### (Brief Description of Application)
+#### by [johnedisc](https://johnedisc.github.io/portfolio/)
 
-#### By (Your Name Here)
+#### a galactic age counter to date yourself in all the universe
 
-## Technologies Used
+## technologies used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* html
+* css
+* javascript
+* webpack
+* jest
+* eslint
 
-## Description
+## description
 
-## Setup/Installation Requirements
+* an age counter that employs js classes and testing with jest
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+## setup/installation requirements
 
-## Known Bugs
+* visit the site [here](https://github.com/johnedisc/outerSpatialTimeCountingMachine.git)
+* clone down the [repository from github]() inside the directory of your choosing
+```bash
+git clone 
+```
+* open index.html in your favorite browser
+* browse as you would any website
 
-* _Any known issues_
-* _should go here_
+## known Bugs
 
-## License
+## license
+
+feel free to get in touch at [christopher(dot)johnedis(at)gmail(dot)com](christopher.johnedis@gmail.com)
+
+Copyright (c) 1.20.23 [johnedisc](https://johnedisc.github.io/portfolio/)
