@@ -26,4 +26,8 @@ export class PlanetAges {
     this.calcAges(this.age - chosenBirthday);
   }
 
+  yearsUntilBirthday(chosenBirthday) {
+    this.calcAges(chosenBirthday - this.age);
+  }
+
 } 

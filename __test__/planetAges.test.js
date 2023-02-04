@@ -38,7 +38,7 @@ describe('planetAges class', () => {
 
     test('should return birthday - age * ratio of planet years', () => {
       let tmpArray = planetAges.yearsUntilBirthday(61);
-      expect(planetAges.venus.converted).toEqual(20.96);
+      expect(planetAges.venus.converted).toEqual(8.06);
     });
   });
 });
