@@ -30,6 +30,9 @@ describe('planetAges class', () => {
     test('should return age - birthday * ratio of planet years', () => {
       let tmpArray = planetAges.yearsSinceBirthday(43);
       expect(planetAges.mercury.converted).toEqual(54.16);
+
     });
+    
   });
+
 });
