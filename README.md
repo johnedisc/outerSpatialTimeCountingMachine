@@ -20,14 +20,11 @@
 ## setup/installation requirements
 
 * visit the site [here](https://github.com/johnedisc/outerSpatialTimeCountingMachine.git)
-* clone down the [repository from github]() inside the directory of your choosing
-```bash
-git clone 
-```
-* open index.html in your favorite browser
-* browse as you would any website
+* it does not currently have a user interface
 
 ## known Bugs
+
+* please do not feed the machine negative numbers or text! it does not yet know how to deal with them
 
 ## license
 
