@@ -18,8 +18,12 @@ export class PlanetAges {
     }
   }
 
-  calcAges() {
-    Object.keys(this).filter(el => el !== 'age').map(el => this[el].converted = parseFloat((this.age / this[el].ratio).toFixed(2)));
+  calcAges(age) {
+    Object.keys(this).filter(el => el !== 'age').map(el => this[el].converted = parseFloat((age / this[el].ratio).toFixed(2)));
+  }
+
+  yearsSinceBirthday(chosenBirthday) {
+    this.calcAges(this.age - chosenBirthday);
   }
 
 } 
