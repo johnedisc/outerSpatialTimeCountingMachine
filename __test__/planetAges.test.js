@@ -25,14 +25,20 @@ describe('planetAges class', () => {
     });
 
   });
+  
   describe('yearSinceBirthday() method', () => {
 
     test('should return age - birthday * ratio of planet years', () => {
       let tmpArray = planetAges.yearsSinceBirthday(43);
       expect(planetAges.mercury.converted).toEqual(54.16);
-
     });
-    
   });
 
+  describe('yearsUntilBirthday() method', () => {
+
+    test('should return birthday - age * ratio of planet years', () => {
+      let tmpArray = planetAges.yearsUntilBirthday(61);
+      expect(planetAges.venus.converted).toEqual(20.96);
+    });
+  });
 });
