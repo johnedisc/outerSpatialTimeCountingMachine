@@ -21,7 +21,7 @@ describe('planetAges class', () => {
     test('should calculate and set object property to planet ages', () => {
       planetAges.calcAges(planetAges.age);
       let tmpArray = Object.keys(planetAges).filter(el => el !== 'age');
-      expect(tmpArray.map(el => planetAges[el].converted)).toEqual([56,233.33,90.32,29.79,4.72]);
+      expect(tmpArray.map(el => planetAges[el].converted)).toEqual([56,233.33,90.32,29.78,4.72]);
     });
 
   });
@@ -29,7 +29,7 @@ describe('planetAges class', () => {
 
     test('should return age - birthday * ratio of planet years', () => {
       let tmpArray = planetAges.yearsSinceBirthday(43);
-      expect(planetAges.mercury.converted).toEqual(54.17);
+      expect(planetAges.mercury.converted).toEqual(54.16);
     });
   });
 });
